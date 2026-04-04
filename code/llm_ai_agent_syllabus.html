@@ -1,0 +1,165 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.wrap{max-width:860px;padding:2rem 1rem}
+.header{border-bottom:0.5px solid var(--color-border-tertiary);padding-bottom:1.5rem;margin-bottom:1.5rem}
+.badge{display:inline-block;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;background:#E6F1FB;color:#0C447C;margin-bottom:0.75rem}
+.course-title{font-size:22px;font-weight:500;color:var(--color-text-primary);margin-bottom:0.5rem}
+.course-meta{font-size:13px;color:var(--color-text-secondary);display:flex;gap:1.5rem;flex-wrap:wrap}
+.section-label{font-size:11px;font-weight:500;letter-spacing:.06em;color:var(--color-text-tertiary);text-transform:uppercase;margin-bottom:0.75rem}
+.overview-box{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:1.25rem;margin-bottom:1.5rem}
+.overview-text{font-size:14px;color:var(--color-text-secondary);line-height:1.7}
+.goals-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:8px;margin-bottom:1.5rem}
+.goal-item{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:0.75rem 1rem;font-size:13px;color:var(--color-text-secondary);line-height:1.5;display:flex;gap:8px;align-items:flex-start}
+.goal-num{font-size:12px;font-weight:500;color:#185FA5;min-width:18px}
+.progress-section{margin-bottom:1.5rem}
+.progress-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem}
+.progress-title{font-size:14px;font-weight:500;color:var(--color-text-primary)}
+.progress-pct{font-size:13px;color:#185FA5;font-weight:500}
+.progress-bar-bg{height:8px;background:var(--color-background-secondary);border-radius:4px;overflow:hidden;margin-bottom:0.4rem}
+.progress-bar-fill{height:100%;background:linear-gradient(90deg,#1a2e5a,#378ADD);border-radius:4px;transition:width .4s ease}
+.progress-hint{font-size:12px;color:var(--color-text-tertiary)}
+.week-dots{display:flex;gap:4px;margin-bottom:1.5rem;flex-wrap:wrap}
+.dot{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;cursor:pointer;border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);background:var(--color-background-primary);transition:all .15s}
+.dot.done{background:#1a2e5a;color:#fff;border-color:#1a2e5a}
+.dot.current{background:#378ADD;color:#fff;border-color:#378ADD}
+.dot:hover{border-color:#378ADD;color:#378ADD}
+.accordion-item{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);margin-bottom:6px;overflow:hidden}
+.accordion-header{display:flex;align-items:center;gap:10px;padding:0.75rem 1rem;cursor:pointer;background:var(--color-background-primary);user-select:none;transition:background .12s}
+.accordion-header:hover{background:var(--color-background-secondary)}
+.week-tag{font-size:11px;font-weight:500;color:#185FA5;background:#E6F1FB;padding:2px 8px;border-radius:20px;min-width:46px;text-align:center}
+.week-tag.done-tag{background:#1a2e5a;color:#fff}
+.week-tag.current-tag{background:#378ADD;color:#fff}
+.acc-title{flex:1;font-size:14px;font-weight:500;color:var(--color-text-primary)}
+.acc-arrow{font-size:11px;color:var(--color-text-tertiary);transition:transform .2s}
+.acc-arrow.open{transform:rotate(180deg)}
+.accordion-body{display:none;padding:0 1rem 1rem;background:var(--color-background-primary)}
+.accordion-body.open{display:block}
+.sub-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:0.75rem}
+.sub-card{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:0.75rem}
+.sub-card-label{font-size:10px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:0.4rem}
+.sub-card-content{font-size:13px;color:var(--color-text-secondary);line-height:1.5}
+.sub-topics{display:flex;flex-direction:column;gap:4px}
+.sub-topic{font-size:12px;color:var(--color-text-secondary);display:flex;align-items:flex-start;gap:6px}
+.sub-dot{width:4px;height:4px;border-radius:50%;background:#378ADD;margin-top:5px;flex-shrink:0}
+.obj-text{font-size:13px;color:var(--color-text-secondary);line-height:1.5}
+.assign-text{font-size:13px;color:var(--color-text-secondary);line-height:1.5}
+@media(max-width:600px){.sub-row{grid-template-columns:1fr}.goals-grid{grid-template-columns:1fr}}
+</style>
+<div class="wrap">
+  <div class="header">
+    <div class="badge">2025-2학기 · 3학점 · 전공선택</div>
+    <div class="course-title">LLM과 AI Agent 입문</div>
+    <div class="course-meta">
+      <span>담당교수: 홍길동 교수</span>
+      <span>강의실: 공학관 301호</span>
+      <span>강의시간: 화·목 10:30–12:00</span>
+    </div>
+  </div>
+
+  <div class="section-label">과목 개요</div>
+  <div class="overview-box">
+    <div class="overview-text">본 과목은 대규모 언어 모델(LLM)의 작동 원리와 AI Agent의 설계·구현을 체계적으로 학습한다. Transformer 아키텍처의 핵심 개념부터 프롬프트 엔지니어링, RAG, 멀티에이전트 시스템까지 이론과 실습을 균형 있게 다룬다. 수강생은 Python 기반 실습을 통해 실제 LLM API를 활용한 애플리케이션을 개발하고, 최종 팀 프로젝트에서 독자적인 AI Agent 시스템을 설계·발표한다. 급변하는 AI 기술 환경에서 현장 적응력을 갖춘 인재를 양성하는 것을 목표로 한다.</div>
+  </div>
+
+  <div class="section-label">학습 목표</div>
+  <div class="goals-grid">
+    <div class="goal-item"><span class="goal-num">01</span>LLM의 구조와 학습 원리를 이해하고 Transformer 아키텍처를 설명할 수 있다</div>
+    <div class="goal-item"><span class="goal-num">02</span>프롬프트 엔지니어링 기법을 활용해 LLM 성능을 최적화할 수 있다</div>
+    <div class="goal-item"><span class="goal-num">03</span>RAG 시스템을 구축하고 외부 지식과 LLM을 연동할 수 있다</div>
+    <div class="goal-item"><span class="goal-num">04</span>LangChain 등 프레임워크로 AI Agent를 설계·구현할 수 있다</div>
+    <div class="goal-item"><span class="goal-num">05</span>AI 윤리와 안전성 이슈를 인식하고 책임 있는 AI 시스템을 설계할 수 있다</div>
+  </div>
+
+  <div class="progress-section">
+    <div class="progress-header">
+      <span class="progress-title">강의 진도</span>
+      <span class="progress-pct" id="pct-text">0 / 16주 완료</span>
+    </div>
+    <div class="progress-bar-bg"><div class="progress-bar-fill" id="prog-bar" style="width:0%"></div></div>
+    <div class="progress-hint">주차 번호를 클릭해 진도를 설정하세요</div>
+  </div>
+
+  <div class="week-dots" id="dots"></div>
+  <div id="accordion"></div>
+</div>
+
+<script>
+const weeks=[
+  {title:"강의 소개 및 AI 트렌드 개요",obj:"AI 발전사와 LLM의 등장 배경을 이해한다",topics:["AI·ML·DL 개념 정리","GPT 등장과 생성형 AI 혁명","과목 로드맵 안내"],assign:"AI 뉴스 리딩 & 요약 보고서 (1~2p)"},
+  {title:"Transformer 아키텍처 이해",obj:"Attention 메커니즘과 Transformer 구조를 설명할 수 있다",topics:["Self-Attention 수식 이해","Encoder–Decoder 구조","위치 인코딩(Positional Encoding)"],assign:"Attention 가중치 시각화 실습 제출"},
+  {title:"LLM 사전학습과 미세조정",obj:"LLM 학습 파이프라인과 Fine-tuning 방법을 구분한다",topics:["Pre-training vs Fine-tuning","RLHF 개요","LoRA·QLoRA 경량 파인튜닝"],assign:"Hugging Face 모델 로드 & 추론 실습"},
+  {title:"프롬프트 엔지니어링 기초",obj:"Zero-shot·Few-shot·CoT 기법을 적용할 수 있다",topics:["System/User/Assistant 역할 구조","Chain-of-Thought 기법","프롬프트 템플릿 설계"],assign:"프롬프트 비교 실험 보고서"},
+  {title:"고급 프롬프트 기법",obj:"ReAct, Self-Consistency 등 고급 기법을 구현한다",topics:["ReAct(Reasoning+Acting)","Tree of Thought","자동 프롬프트 최적화 APE"],assign:"프롬프트 최적화 개인 프로젝트 기획서"},
+  {title:"LLM API 활용 및 비용 관리",obj:"OpenAI·Anthropic·Gemini API를 실무적으로 활용한다",topics:["API 호출 구조와 토큰 계산","스트리밍 응답 처리","비용 최적화 전략"],assign:"API 기반 챗봇 프로토타입 제출"},
+  {title:"RAG 시스템 설계",obj:"RAG 파이프라인을 설계하고 구현할 수 있다",topics:["벡터 DB 개념(Chroma·Pinecone)","임베딩 모델 선택","청크 전략과 검색 품질"],assign:"RAG QA 시스템 구현 실습"},
+  {title:"중간 발표 및 피드백",obj:"팀 프로젝트 아이디어를 발표하고 피드백을 수렴한다",topics:["팀별 프로젝트 주제 발표(5분)","교수·동료 피드백 세션","프로젝트 방향 수정"],assign:"팀 프로젝트 기획서 v2 제출"},
+  {title:"LangChain 프레임워크",obj:"LangChain의 핵심 컴포넌트를 조합해 체인을 구성한다",topics:["Chain·Memory·Tool 개념","LCEL(LangChain Expression Language)","에이전트 기본 구조"],assign:"LangChain 기반 도구 사용 Agent 구현"},
+  {title:"AI Agent 설계 원리",obj:"Agent의 계획·행동·반성 루프를 설계할 수 있다",topics:["ReAct Agent 구조","플래닝(Planning) 전략","Tool Calling & Function Calling"],assign:"단일 Agent 과제 자동화 구현"},
+  {title:"멀티 에이전트 시스템",obj:"멀티 에이전트 협력 아키텍처를 구현한다",topics:["LangGraph·AutoGen 개요","Manager-Worker 패턴","에이전트 간 메시지 프로토콜"],assign:"멀티 에이전트 워크플로우 구현 실습"},
+  {title:"Agent 도구 연동 및 MCP",obj:"외부 도구·API·MCP를 에이전트에 통합한다",topics:["웹 검색·코드 실행 도구","MCP(Model Context Protocol) 개요","Custom Tool 개발"],assign:"MCP 서버 연동 에이전트 구현"},
+  {title:"LLM 평가와 성능 측정",obj:"LLM 출력을 체계적으로 평가하는 방법론을 적용한다",topics:["ROUGE·BLEU·BERTScore","LLM-as-Judge 패턴","평가 데이터셋 구축"],assign:"프로젝트 평가 지표 설계 및 측정 보고서"},
+  {title:"AI 안전성과 윤리",obj:"AI 편향·환각·오남용 문제를 인식하고 대응책을 제안한다",topics:["환각(Hallucination) 완화 기법","편향 탐지와 공정성","Responsible AI 가이드라인"],assign:"AI 윤리 케이스 스터디 에세이"},
+  {title:"최신 연구 동향과 미래",obj:"멀티모달 LLM과 차세대 Agent 연구 트렌드를 파악한다",topics:["멀티모달 모델(GPT-4o 등)","AI Agent OS 개념","오픈소스 LLM 생태계"],assign:"관심 논문 리뷰 발표 준비"},
+  {title:"최종 프로젝트 발표",obj:"팀 프로젝트를 완성하여 발표하고 동료 평가를 수행한다",topics:["팀별 발표(10분+Q&A 5분)","동료 평가 및 상호 피드백","코스 회고 및 마무리"],assign:"최종 보고서 및 소스코드 GitHub 제출"},
+];
+
+let done=0;
+function render(){
+  const dots=document.getElementById('dots');
+  const acc=document.getElementById('accordion');
+  dots.innerHTML='';acc.innerHTML='';
+  weeks.forEach((w,i)=>{
+    const n=i+1;
+    const isDone=n<done;
+    const isCur=n===done;
+    const d=document.createElement('div');
+    d.className='dot'+(isDone?' done':isCur?' current':'');
+    d.textContent=n;
+    d.title=`${n}주차: ${w.title}`;
+    d.onclick=()=>{done=n;render()};
+    dots.appendChild(d);
+
+    const item=document.createElement('div');
+    item.className='accordion-item';
+    const tagClass=isDone?'done-tag':isCur?'current-tag':'';
+    const tagLabel=isDone?'완료':isCur?'현재':'';
+    item.innerHTML=`
+      <div class="accordion-header" onclick="toggle(this)">
+        <span class="week-tag ${tagClass}">${n}주차${tagLabel?'<br><span style="font-size:9px">'+tagLabel+'</span>':''}</span>
+        <span class="acc-title">${w.title}</span>
+        <span class="acc-arrow">▼</span>
+      </div>
+      <div class="accordion-body">
+        <div class="sub-row">
+          <div class="sub-card">
+            <div class="sub-card-label">학습 목표</div>
+            <div class="obj-text">${w.obj}</div>
+          </div>
+          <div class="sub-card">
+            <div class="sub-card-label">세부 주제</div>
+            <div class="sub-topics">${w.topics.map(t=>`<div class="sub-topic"><span class="sub-dot"></span>${t}</div>`).join('')}</div>
+          </div>
+          <div class="sub-card">
+            <div class="sub-card-label">과제</div>
+            <div class="assign-text">${w.assign}</div>
+          </div>
+        </div>
+      </div>`;
+    acc.appendChild(item);
+  });
+  const pct=Math.round((Math.max(0,done-1))/16*100);
+  document.getElementById('prog-bar').style.width=pct+'%';
+  document.getElementById('pct-text').textContent=`${Math.max(0,done-1)} / 16주 완료`;
+}
+function toggle(hdr){
+  const body=hdr.nextElementSibling;
+  const arrow=hdr.querySelector('.acc-arrow');
+  const isOpen=body.classList.contains('open');
+  document.querySelectorAll('.accordion-body.open').forEach(b=>b.classList.remove('open'));
+  document.querySelectorAll('.acc-arrow.open').forEach(a=>a.classList.remove('open'));
+  if(!isOpen){body.classList.add('open');arrow.classList.add('open')}
+}
+render();
+</script>
