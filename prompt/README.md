@@ -11,7 +11,7 @@
 응답 스타일 — 학술적·정확한 표현 우선, 전문 지식을 전제하고 기초 설명 생략, 또는 학생에게 설명할 수 있는 쉬운 설명
 ```
 
-### [artifact 사례](https://github.com/user-attachments/assets/f0a76694-4aca-4949-a368-9b3faed89a8e)
+### [artifact 사례](https://claude.ai/public/artifacts/64f6c4a0-cdf5-4c09-9b16-83a4388d37c0)
 ```
 다음의 내용을 jsx 형식으로 작성해줘
 * 다음 claude 기능 설명
