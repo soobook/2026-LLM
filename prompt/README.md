@@ -11,10 +11,15 @@
 응답 스타일 — 학술적·정확한 표현 우선, 전문 지식을 전제하고 기초 설명 생략, 또는 학생에게 설명할 수 있는 쉬운 설명
 ```
 
-### [artifact 사례](https://claude.ai/public/artifacts/64f6c4a0-cdf5-4c09-9b16-83a4388d37c0)
+### [artifact 사례 1: jsx](https://claude.ai/public/artifacts/64f6c4a0-cdf5-4c09-9b16-83a4388d37c0)
 ```
 다음의 내용을 jsx 형식으로 작성해줘
 * 다음 claude 기능 설명
 * 사용자 지정/프로젝트/아티팩트/
+```
+
+### [artifact 사례 2: html + css](https://claude.ai/public/artifacts/2bc0139c-9a8f-4ed1-a231-b96fc4f4a2c5))
+```
+'인공지능 역사' 연대기를 다이어그램으로 그려 줘
 ```
 
