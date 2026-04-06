@@ -31,10 +31,9 @@
 - 논문 주제와 저자 정보, 그리고 논문의 분량 페이지는 이를 통해 만든 스킬을 사용해 질의할 때 알려 줄 예정이야
 - 논문 형식은 첨부한 파일 formmat(KOR).docx에 있으며 
 - 작성할 논문 목차와 작성 방법도 파일 formmat(KOR).docx 기술되어 있어
-- 특히, 참고 문헌은 논문 주제와 서술내용에 부합하는 논문을 네가 찾아서 모두 5개(국외 2개와 국내 3개) 정도 작성하는데 참고 문헌 작성 포멧은 formmat(KOR).docx에 있는 형식으로 작성해 줘
-- 반드시 최종 논문이 논문 형식 formmat(KOR).docx에 정확히 일치하도록 해 주어야 하는데, 이를 위해 너는 이에 적합한 다른 스킬을 사용해도 좋아 
+- 특히, 참고 문헌은 논문 주제와 서술내용에 부합하는 논문을 반드시 네가 찾아서 존재하는 논문 모두 5개(국외 2개와 국내 3개)를 작성하는데, 참고 문헌 작성 포멧은 formmat(KOR).docx에 있는 형식으로 작성해 줘
+- 반드시 최종 논문이 논문 형식 formmat(KOR).docx에 정확히 일치하도록 해 주어야 하는데, 이를 위해 너는 이에 적합한 다른 스킬을 사용해도 좋아 ```
 ```
-
 
 ```
 paper-writing 스킬을 사용해 논문 포멧으로 3페이지 분량의 다음 논문 작성해줘,
@@ -124,5 +123,6 @@ Integrating Generative AI into Programming Education: Student Perceptions and th
 Artificial Intelligence in Computer Programming Education: Evaluating ChatGPT’s Effect on Computational Thinking, https://link.springer.com/article/10.1007/s42979-025-04051-9
 Using GitHub Classroom to Teach and Assess Programming Skills, https://dl.acm.org
 Assessing Student Learning in Project-Based Learning, https://www.bie.org
+```
 생성형 AI 활용 PBL 수업에서 학습 효과와 평가 방식 연구, https://dspace.kci.go.kr
 ```
