@@ -33,5 +33,96 @@
 - 작성할 논문 목차와 작성 방법도 파일 formmat(KOR).docx 기술되어 있어
 - 특히, 참고 문헌은 논문 주제와 서술내용에 부합하는 논문을 네가 찾아서 모두 5개(국외 2개와 국내 3개) 정도 작성하는데 참고 문헌 작성 포멧은 formmat(KOR).docx에 있는 형식으로 작성해 줘
 - 반드시 최종 논문이 논문 형식 formmat(KOR).docx에 정확히 일치하도록 해 주어야 하는데, 이를 위해 너는 이에 적합한 다른 스킬을 사용해도 좋아 
+```
 
+
+```
+paper-writing 스킬을 사용해 논문 포멧으로 3페이지 분량의 다음 논문 작성해줘,
+페이지 분량을 고려해 다음 내용 중에서 선별적으로 선택해 작성해줘
+
+## 제목: 생성형 AI 기반 프로젝트 기반 학습 평가: LLM 활용 과정과 GitHub 포트폴리오의 통합 모델
+
+## 다음 주요 내용을 기술
+1. 서론
+1.1 연구의 필요성
+생성형 AI 확산으로 기존 결과 중심 평가의 한계 발생
+PBL 환경에서 학습자 기여도 및 이해도 평가 어려움 증가
+1.2 연구 목적
+LLM 활용 과정 데이터와 GitHub 포트폴리오를 결합한 통합 평가 모델 제안
+실제 교과목 적용 가능한 평가 프레임워크 설계
+1.3 연구 문제
+생성형 AI 활용 과정은 어떻게 평가할 수 있는가?
+GitHub 기반 결과물은 어떻게 객관적으로 평가할 수 있는가?
+두 요소를 통합한 평가 모델은 어떤 구조가 적절한가?
+1.4 연구 방법 및 구성
+사례 기반 연구 + 데이터 분석
+논문 구성 개요 제시
+2. 연구 배경
+2.1 프로젝트 기반 학습(PBL)과 평가 방식
+PBL의 특징: 과정 중심, 협업 중심
+기존 평가 방식: 수행평가, 루브릭, 동료평가
+2.2 생성형 AI(LLM) 활용 교육의 특성
+AI 기반 학습 환경 변화
+Prompt 설계 및 AI 활용 능력의 중요성
+2.3 기존 평가 방식의 한계
+결과 중심 평가의 한계
+AI 활용으로 인한 평가 왜곡 문제
+2.4 GitHub 기반 학습 및 평가 가능성
+코드 이력 관리와 협업 데이터
+학습 과정 추적 도구로서의 가치
+3. 통합 모델 연구 (핵심 파트)
+3.1 통합 평가 모델의 설계 원리
+과정 중심 + 결과 중심 통합 구조
+데이터 기반 평가 접근
+3.2 LLM 활용 과정 기반 평가 모델
+■ 평가 요소
+Prompt 설계 능력
+반복 개선 과정 (iteration)
+AI 결과 검증 및 수정 능력
+■ 데이터 수집
+Prompt 로그
+AI 활용 기록
+작업 흐름 데이터
+3.3 GitHub 기반 결과 및 과정 평가 모델
+■ 평가 요소
+코드 품질 및 완성도
+commit 및 변경 이력
+협업 활동 (PR, Issue)
+■ 분석 방법
+Git 로그 분석
+기여도 평가
+3.4 통합 평가 프레임워크
+■ 평가 구조
+과정 평가 (LLM 기반)
+결과 평가 (GitHub 기반)
+성찰 평가 (보고서)
+■ 평가 비율 (예시)
+과정 40% + 결과 40% + 성찰 20%
+3.5 평가 운영 및 적용 방법
+교과목 적용 방식
+자기평가 + 동료평가 병행
+평가 루브릭 설계
+3.6 기대 효과 및 차별성
+학습 과정 가시화
+평가 공정성 향상
+AI 활용 역량 강화
+4. 결론
+4.1 연구 결과 요약
+통합 평가 모델의 필요성과 설계 결과 정리
+4.2 교육적 시사점
+생성형 AI 시대 평가 패러다임 변화
+과정 중심 평가의 중요성 강조
+4.3 연구의 한계
+로그 데이터 수집의 제약
+평가 기준 표준화 문제
+4.4 향후 연구 방향
+자동 평가 시스템 개발
+AI 기반 평가 도구 확장
+
+##  다음 참고 문헌으로 기술
+Integrating Generative AI into Programming Education: Student Perceptions and the Challenge of Correcting AI Errors, https://link.springer.com/article/10.1007/s40593-025-00496-4
+Artificial Intelligence in Computer Programming Education: Evaluating ChatGPT’s Effect on Computational Thinking, https://link.springer.com/article/10.1007/s42979-025-04051-9
+Using GitHub Classroom to Teach and Assess Programming Skills, https://dl.acm.org
+Assessing Student Learning in Project-Based Learning, https://www.bie.org
+생성형 AI 활용 PBL 수업에서 학습 효과와 평가 방식 연구, https://dspace.kci.go.kr
 ```
