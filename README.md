@@ -19,11 +19,11 @@ gantt
     axisFormat %m/%d
 
     section 1일(07.28화)
-    1교시 - AI 개요                      :done, a1, 2026-07-28, 4h
-    2교시 - LLM 개요                     :done, a2, after a1, 5h
-    3교시 - ChatGPT 개요                 :done, a3, after a1, 5h
-    4교시 - ChatGPT 활용                 :done, a4, after a2, 5h
-    5교시 - Claude 개요                  :done, a5, after a2, 5h
+    1교시 - AI 개요                      :done, a1, 2026-07-28, 8h
+    2교시 - LLM 개요                     :done, a2, after a1, 8h
+    3교시 - ChatGPT 개요                 :done, a3, after a1, 8h
+    4교시 - ChatGPT 활용                 :done, a4, after a2, 8h
+    5교시 - Claude 개요                  :done, a5, after a2, 8h
 
     section 2일(07.29수)
     1교시 - 스킬 개요와 활용             :active, b1, 2026-07-29, 8h
