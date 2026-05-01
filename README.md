@@ -17,7 +17,6 @@ gantt
     title AI 강의 일정
     dateFormat YYYY-MM-DD
     axisFormat %m/%d
-    excludes weekends
 
     section 1일차 (07.28 화)
     1교시 - AI 개요                      :done, a1, 2026-07-28, 4h
@@ -27,9 +26,9 @@ gantt
     5교시 - Claude 개요                  :done, a5, after a4, 5h
 
     section 2일차 (07.29 수)
-    1교시 - 스킬 개요와 활용             :active, b1, 2026-07-29, 5h
-    2교시 - 커넥터 개요와 활용           :active, b2, after b1, 5h
-    3교시 - 코워크 개요와 활용           :active, b3, after b2, 5h
+    1교시 - 스킬 개요와 활용             :active, b1, 2026-07-29, 4h
+    2교시 - 커넥터 개요와 활용           :active, b2, after b1, 4h
+    3교시 - 코워크 개요와 활용           :active, b3, after b2, 4h
 ```
     
 ## mermaid 종류
