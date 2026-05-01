@@ -21,15 +21,15 @@ gantt
 
     section 1일차 (07.28 화)
     1교시 - AI 개요                      :done, a1, 2026-07-28, 4h
-    2교시 - LLM 개요                     :done, a2, after a1, 4h
-    3교시 - ChatGPT 개요                 :done, a3, after a2, 4h
-    4교시 - ChatGPT 활용                 :done, a4, after a3, 4h
-    5교시 - Claude 개요 및 프로젝트 활용 :done, a5, after a4, 4h
+    2교시 - LLM 개요                     :done, a2, after a1, 5h
+    3교시 - ChatGPT 개요                 :done, a3, after a2, 5h
+    4교시 - ChatGPT 활용                 :done, a4, after a3, 5h
+    5교시 - Claude 개요와 활용           :done, a5, after a4, 5h
 
     section 2일차 (07.29 수)
-    1교시 - 스킬 개요와 활용             :active, b1, 2026-07-29, 4h
-    2교시 - 커넥터 개요와 활용           :active, b2, after b1, 4h
-    3교시 - 코워크 개요와 활용           :active, b3, after b2, 4h
+    1교시 - 스킬 개요와 활용             :active, b1, 2026-07-29, 8h
+    2교시 - 커넥터 개요와 활용           :active, b2, after b1, 8h
+    3교시 - 코워크 개요와 활용           :active, b3, after b2, 8h
 ```
     
 ## mermaid 종류
