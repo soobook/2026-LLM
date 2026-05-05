@@ -122,3 +122,9 @@ gitGraph
   merge feature
   commit id:"release"
 ```
+
+## 스킬 활용 사례
+
+```HTML
+<iframe src="https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed" title="kanban-board.html" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+```
