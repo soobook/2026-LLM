@@ -34,7 +34,7 @@ gantt
 
 ## 스킬 활용 사례
 - [팀 프로젝트 보드](https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed)
-- 입베디스 코드
+- 임베디드 코드
 ```HTML
 <iframe src="https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed" title="kanban-board.html" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
 ```
