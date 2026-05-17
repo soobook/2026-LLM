@@ -21,20 +21,20 @@
 ```mermaid
 gantt
     title AI 강의 일정
-    dateFormat YYYY-MM-DD
+    dateFormat YYYY-MM-DD-HH
     axisFormat %m/%d
 
     section 1일(07.28화)
-    1교시 - 인공지능 노벨상과 거대언어모델(LLM) :done, a1, 2026-07-28, 8h
-    2교시 - 인공신경망과 다양한 LLM :done, a2, after a1, 8h
-    3교시 - 프롬프트 엔지니어링           :done, a3, after a1, 8h
-    4교시 - ChatGPT 활용                 :done, a4, after a2, 8h
-    5교시 - Notebooklm과 Manus           :done, a5, after a2, 8h
+    1교시 - 인공지능 노벨상과 거대언어모델(LLM) :done, a1, 2026-07-28-13, 6h
+    2교시 - 인공신경망과 다양한 LLM :done, a2, 2026-07-28-13, 6h
+    3교시 - 프롬프트 엔지니어링           :done, a3, 2026-07-28-13, 6h
+    4교시 - ChatGPT 활용                 :done, a4, after a2, 5h
+    5교시 - Notebooklm과 Manus           :done, a5, after a2, 5h
 
     section 2일(07.29수)
-    1교시 - 클로드 활용           :active, b1, 2026-07-29, 8h
-    2교시 - 클로드 스킬           :active, b2, after b1, 8h
-    3교시 - AI 에이전트           :active, b3, after b1, 8h
+    1교시 - 클로드 활용           :active, b1, 2026-07-29-00, 4h
+    2교시 - 클로드 스킬           :active, b2, after b1, 4h
+    3교시 - AI 에이전트           :active, b3, after b1, 4h
 ```
     
 
