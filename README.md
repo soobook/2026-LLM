@@ -7,6 +7,9 @@
 - 연수일정: 2026년 7월 28일(화) 13시 ~ 7월 29일(수) 12시 (1박2일, 8시간)
 - 연수장소: 상암 스탠퍼드호텔코리아 (서울 마포구 월드컵북로 58길, 15)
 
+### 관련 도서
+- [<img width="458" height="633" alt="image" src="https://github.com/user-attachments/assets/215c43b1-f12d-4120-90d3-8e856c96123e" />](https://product.kyobobook.co.kr/detail/S000217430806)
+
 ### 학습 계획
 
 | 1일차 | 교시 | 주제 || 2일차 | 교시 | 주제 |
@@ -37,10 +40,3 @@ gantt
     3교시 - AI 에이전트           :active, b3, after b1, 4h
 ```
   
-## 스킬 활용 사례
-- [팀 프로젝트 보드](https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed)
-- 임베디드 코드
-```HTML
-<iframe src="https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed" title="kanban-board.html" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
-```
-
