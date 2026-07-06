@@ -37,6 +37,61 @@ gantt
     3교시 - AI 에이전트           :active, b3, after b1, 4h
 ```
 
+---
+
+### 주요 LLM 서비스
+
+#### 글로벌 종합 LLM 서비스
+
+| 서비스 | 제공사 | 링크 |
+|---|---|---|
+| ChatGPT | OpenAI | https://chat.openai.com |
+| Claude | Anthropic | https://claude.ai |
+| Gemini | Google | https://gemini.google.com |
+| NotebookLM | Google | https://notebooklm.google.com |
+| | | |
+| Perplexity | 출처 기반 AI 검색 엔진 | https://www.perplexity.ai |
+| Manus | 에이전트 특화 AI 서비스 | https://manus.im |
+| | | |
+| Grok | xAI | https://grok.com |
+| Copilot | Microsoft | https://copilot.microsoft.com |
+| Meta AI | Meta | https://www.meta.ai |
+| Le Chat | Mistral | https://chat.mistral.ai |
+| You.com | 검색 + AI 어시스턴트 결합 | https://you.com |
+| | | |
+| 뤼튼(Wrtn) | 뤼튼테크놀로지스 | https://wrtn.ai |
+| 캐럿(Carat) | - | https://carat.im |
+| Solar (Upstage) | 업스테이지 | https://console.upstage.ai |
+
+#### 코딩·개발 특화
+
+| 서비스 | 특징 | 링크 |
+|---|---|---|
+| Claude Code | 터미널/IDE 기반 에이전틱 코딩 | https://claude.com/product/claude-code |
+| GitHub Copilot | IDE 내 코드 자동완성·채팅 | https://github.com/features/copilot |
+| Cursor | AI 네이티브 코드 에디터 | https://cursor.sh |
+| Windsurf | AI 에이전트 기반 IDE | https://windsurf.com |
+
+#### 오픈소스·개발자용 (API/자체 호스팅)
+
+| 모델 | 제공사 | 링크 |
+|---|---|---|
+| DeepSeek | DeepSeek | https://chat.deepseek.com |
+| Llama | Meta | https://llama.meta.com |
+| Qwen | Alibaba | https://chat.qwen.ai |
+| Mistral (오픈 웨이트) | Mistral AI | https://mistral.ai |
+
+
+#### API 통합 플랫폼 (여러 모델 한번에 비교/호출)
+
+| 서비스 | 특징 | 링크 |
+|---|---|---|
+| OpenRouter | 다양한 LLM API를 단일 엔드포인트로 제공 | https://openrouter.ai |
+| Poe | 여러 챗봇 모델을 한 화면에서 전환 사용 | https://poe.com |
+| LMArena (Chatbot Arena) | 모델 간 블라인드 비교·순위 | https://lmarena.ai |
+
+---
+
 ### 관련 도서
 > [<img width="458" height="633" alt="image" src="https://github.com/user-attachments/assets/215c43b1-f12d-4120-90d3-8e856c96123e" />](https://product.kyobobook.co.kr/detail/S000217430806)
 
