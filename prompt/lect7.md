@@ -72,6 +72,13 @@ UI/UX 요구사항
 📌 샘플 데이터 앱 최초 실행 시 각 컬럼에 예시 카드 1~2개씩 미리 표시해줘.
 ```
 
+## '칸반 웹 앱' 생성 사례
+- [팀 프로젝트 보드](https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed)
+- 임베디드 코드
+```HTML
+<iframe src="https://claude.site/public/artifacts/610bed12-3584-4ec1-908c-b0dd5431cbe7/embed" title="kanban-board.html" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+```
+
 ## '주식 추천' 관련 스킬 생성
 ```
 현재 주식 시황 살펴보고 국내와 미국 주식의 개별 종목과 ETF 추천해 줘
