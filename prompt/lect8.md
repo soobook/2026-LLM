@@ -65,7 +65,7 @@
 "클로드에서 카톡(PlayMCP 카카오톡) 연결하는 방법"을 정리해서 나에게 보내 줘
 ```
 
-## Appendux
+## Appendix
 ```
 /skill-creator
 
