@@ -36,7 +36,8 @@ gantt
     2교시 - 클로드 스킬           :active, b2, after b1, 4h
     3교시 - AI 에이전트           :active, b3, after b1, 4h
 ```
-
+### 카카오 playmcp 접속
+- [카카오 playmcp](https://playmcp.kakao.com/?page=0)
 ---
 
 ### 주요 LLM 서비스
