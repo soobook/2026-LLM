@@ -1,6 +1,6 @@
 ## mermaid 종류
 
-### flowchar
+### flowchart
 ```mermaid
 flowchart TD
   A[입력] --> B{조건?}
