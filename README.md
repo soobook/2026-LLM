@@ -40,6 +40,16 @@ gantt
 - [카카오 playmcp](https://playmcp.kakao.com/?page=0)
 ---
 
+### 주요 Top 3 LLM
+| 기업	| 서비스 | 일반 사용자 관점 특징 |
+|---|---|---|
+| OpenAI | https://chatgpt.com | 전반적으로 가장 균형감이 좋고, 답변 품질과 사용 편의성 |
+| Anthropic | https://claude.ai | 글쓰기, 긴 문맥 이해, 분석 톤이 특히 좋고 대화가 자연스러움 |
+| Google | https://gemini.google.com | 이미지·영상 등 멀티모달에 강하고, 검색·생산성 도구와의 연결성 |
+
+
+---
+
 ### 주요 LLM 서비스
 
 #### 글로벌 종합 LLM 서비스
