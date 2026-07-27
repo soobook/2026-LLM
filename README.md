@@ -112,4 +112,4 @@ gantt
 > - [빅뱅부터 문명까지](https://www.youtube.com/watch?v=vxGQbf1koHk)
 > - [지구의 탄생](https://www.youtube.com/watch?v=ZknwqieFqwk)
 > - [정보이론의 어버지 클로드 섀넌](https://www.youtube.com/watch?v=IpP6BwvKv3M)
-> - []()
+
