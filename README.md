@@ -38,6 +38,7 @@ gantt
 ```
 ### 관련 App 사이트 접속
 - [전문대학교육협의회 하계 연수 일정](https://hrd.kcce.or.kr/training/trainingList.do?yr=&search_trn_nm=&search_month=07&search_trn_face=C)
+- [ChatGPT의 GPTs 기능](https://chatgpt.com/gpts)
 - [카카오 playmcp](https://playmcp.kakao.com/?page=0)
 - [노션](https://app.notion.com)
 ---
